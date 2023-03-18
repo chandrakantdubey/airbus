@@ -1,0 +1,26 @@
+.navbar--container{
+    background-color: yellow;
+    padding: 1em 2em;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 700;
+    margin-left: 0.5em;
+}
+.navbar .icon{
+    width: 25px;
+    height: 25px;
+}
+.navbar a:hover,
+.navbar a:active{
+    color: blueviolet;
+}

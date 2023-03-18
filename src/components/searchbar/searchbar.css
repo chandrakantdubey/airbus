@@ -1,0 +1,48 @@
+.searchbar{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+}
+.travel--form{
+    border: 1px solid green;
+    display: flex;
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+}
+.travel--form div{
+    padding: 0.75em 1.5em;
+}
+.travel--form input{
+    background-color: white;
+    display: block;
+    min-height: 2em;
+    border: 0;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 1.2em;
+    color: black;
+    border-bottom: 2px solid black;
+    outline: 0;
+}
+
+.travel--form input:active{
+    border: 0;
+}
+
+.travel--form button {
+    display: block;
+    min-height: 2em;
+    padding: 0.75em 3em;
+    align-self: flex-end;
+    background-color: yellow;
+    border-radius: 0.25em;
+    border: 0;
+    font-size: 1.2em;
+}
